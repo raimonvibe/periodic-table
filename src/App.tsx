@@ -13,16 +13,13 @@ import './App.css';
 function App() {
   const [activeTab, setActiveTab] = useState('periodic-table');
 
-  useEffect(() => {
-    const path = window.location.pathname;
-    if (path === '/') {
-      setActiveTab('periodic-table');
-    } else if (path === '/settings') {
-      setActiveTab('settings');
-    } else if (path === '/credits') {
-      setActiveTab('credits');
-    }
-  }, []);
+useEffect(() => {
+  const path = window.location.pathname;
+  if (path === '/') {
+    setActiveTab('periodic-table');
+  }
+}, []);
+
 
   return (
     <ThemeProvider>
