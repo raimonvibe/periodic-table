@@ -11,11 +11,7 @@ A comprehensive interactive periodic table application with detailed element inf
 ## 📸 Screenshots
 
 ### Periodic Table View
-*(You can replace the link below with the actual path to your `periodic.png` image after adding it to your project, e.g., `./screenshots/periodic.png`)*
 ![Periodic Table View](periodic.png)
-
-### Element Detail - Dark Mode
-![Element Detail - Dark Mode](https://app.devin.ai/attachments/ccfb3cfa-bb3a-4371-8b26-07d57464e351/localhost_5173_195538.png)
 
 ## 🚀 Setup Instructions
 
