@@ -44,16 +44,6 @@ function App() {
                         <Link to="/" className="flex items-center gap-1">
                           <Table className="h-4 w-4" /> Table
                         </Link>
-                      {/* </TabsTrigger>
-                      <TabsTrigger value="credits" asChild className="dark:data-[state=active]:bg-slate-900 dark:text-slate-200">
-                        <Link to="/credits" className="flex items-center gap-1">
-                          <CreditCard className="h-4 w-4" /> Credits
-                        </Link>
-                      </TabsTrigger>
-                      <TabsTrigger value="settings" asChild className="dark:data-[state=active]:bg-slate-900 dark:text-slate-200">
-                        <Link to="/settings" className="flex items-center gap-1">
-                          <Settings className="h-4 w-4" /> Settings
-                        </Link> */}
                       </TabsTrigger>
                     </TabsList>
                   </Tabs>
@@ -67,8 +57,6 @@ function App() {
           <Routes>
             <Route path="/" element={<PeriodicTable elements={elements} />} />
             <Route path="/element/:atomicNumber" element={<ElementDetail getElementByAtomicNumber={getElementByAtomicNumber} />} />
-            {/* <Route path="/credits" element={<CreditsSettings />} />
-            <Route path="/settings" element={<CreditsSettings />} /> */}
           </Routes>
         </main>
         
