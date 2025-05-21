@@ -5,7 +5,7 @@ import PeriodicTable from './components/PeriodicTable';
 import ElementDetail from './components/ElementDetail';
 // import CreditsSettings from './components/CreditsSettings';
 import { elements, getElementByAtomicNumber } from './data/elements';
-import { Settings, Table, CreditCard } from 'lucide-react';
+import { Table } from 'lucide-react';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { ThemeToggle } from './components/ThemeToggle';
 import './App.css';
