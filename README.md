@@ -1,5 +1,7 @@
 # Interactive Periodic Table 🧪
 
+**🌐 Live Demo: [https://periodic-table.raimonvibe.com/](https://periodic-table.raimonvibe.com/)**
+
 A comprehensive interactive periodic table application with detailed element information and dark/light mode support. Explore the elements like never before!
 
 ## ✨ Features
